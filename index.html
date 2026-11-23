@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio personal y hub de proyectos de Unai Roa Ariznabarreta. Ingeniería Informática (UPV/EHU), desarrollo de software, visión artificial y automatización.">
+  <meta name="theme-color" content="#090b10">
+  <title>Unai Roa Ariznabarreta — Portfolio &amp; Hub de Proyectos</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f172a'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='system-ui,sans-serif' font-size='15' font-weight='700' fill='%2338bdf8'%3EUR%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="inicio">
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <div class="bg-ambient" aria-hidden="true">
+    <div class="bg-orb bg-orb-1"></div>
+    <div class="bg-orb bg-orb-2"></div>
+    <div class="bg-grid"></div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#inicio" class="brand" aria-label="Unai Roa Ariznabarreta — Inicio">
+        <span class="brand-mark">UR</span>
+        <span class="brand-name">Unai Roa</span>
+      </a>
+
+      <nav class="site-nav" id="site-nav" aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="#sobre-mi" class="nav-link">Inicio</a></li>
+          <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+          <li><a href="#stack" class="nav-link">Stack</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+        <a href="https://github.com/Ubairoa" class="nav-cta" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2Z"/>
+          </svg>
+          <span>GitHub</span>
+        </a>
+      </nav>
+
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="site-nav">
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="sobre-mi">
+      <div class="container hero-inner">
+        <div class="hero-eyebrow">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span>Vitoria-Gasteiz · UPV/EHU</span>
+        </div>
+
+        <h1 class="hero-title">Unai Roa Ariznabarreta</h1>
+
+        <p class="hero-subtitle">
+          Estudiante de 2.º curso de Ingeniería Informática de Gestión y Sistemas de Información (UPV/EHU - Escuela de Ingeniería de Vitoria-Gasteiz). Desarrollador de software y jugador/entrenador federado de bádminton.
+        </p>
+
+        <p class="hero-summary">
+          Construyo soluciones prácticas que conectan la ingeniería de software, la visión artificial en tiempo real, la automatización de procesos y el desarrollo web moderno, desde herramientas de análisis deportivo hasta sistemas universitarios de impacto real.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#proyectos" class="btn btn-primary">
+            <span>Explorar proyectos</span>
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6 6 6-6 6"/>
+            </svg>
+          </a>
+          <a href="https://github.com/Ubairoa" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2Z"/>
+            </svg>
+            <span>Ver perfil de GitHub</span>
+          </a>
+        </div>
+
+        <ul class="hero-highlights" aria-label="Áreas de especialización">
+          <li>Ingeniería de Software</li>
+          <li>Visión Artificial</li>
+          <li>Automatización &amp; IA</li>
+          <li>Desarrollo Web</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="proyectos">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="section-kicker">Hub Central</span>
+            <h2 class="section-title">Aplicaciones y Proyectos</h2>
+            <p class="section-description">
+              Selección de aplicaciones web, herramientas de automatización e iniciativas técnicas desarrolladas en la universidad y de forma independiente.
+            </p>
+          </div>
+
+          <div class="filter-bar" role="group" aria-label="Filtrar proyectos por categoría">
+            <button type="button" class="filter-btn is-active" data-filter="all" aria-pressed="true">Todos</button>
+            <button type="button" class="filter-btn" data-filter="web-apps" aria-pressed="false">Web &amp; Apps</button>
+            <button type="button" class="filter-btn" data-filter="ia-auto" aria-pressed="false">IA &amp; Automatización</button>
+            <button type="button" class="filter-btn" data-filter="eng-games" aria-pressed="false">Ingeniería &amp; Juegos</button>
+          </div>
+        </div>
+
+        <div class="projects-grid" id="projects-grid">
+          <article class="project-card project-card--featured" data-categories="web-apps ia-auto">
+            <div class="card-top">
+              <div class="card-badges">
+                <span class="badge badge-featured">Proyecto destacado</span>
+                <span class="badge badge-muted">Visión Artificial · Client-side</span>
+              </div>
+              <span class="card-index" aria-hidden="true">01</span>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Badminton Biomechanics Analyzer</h3>
+              <p class="card-description">
+                Aplicación web client-side de análisis biomecánico de movimiento y golpeo en bádminton mediante visión artificial en tiempo real. Procesa pose corporal directamente en el navegador con medición dinámica de ángulos articulares y comparación técnica frente a referencias Pro.
+              </p>
+
+              <ul class="tech-list" aria-label="Tecnologías utilizadas">
+                <li>MediaPipe Pose</li>
+                <li>JavaScript</li>
+                <li>Canvas</li>
+                <li>Análisis de ángulos</li>
+                <li>Comparación Pro</li>
+              </ul>
+            </div>
+
+            <div class="card-actions">
+              <!-- PLACEHOLDER: Sustituye https://TU-URL-BADMINTON.vercel.app por la URL final desplegada de Badminton Biomechanics Analyzer -->
+              <a href="https://TU-URL-BADMINTON.vercel.app" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer">
+                <span>Abrir proyecto</span>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 17 17 7M9 7h8v8"/>
+                </svg>
+              </a>
+              <a href="https://github.com/Ubairoa" class="btn btn-ghost btn-sm" target="_blank" rel="noopener noreferrer">
+                <span>Ver repositorio</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card" data-categories="web-apps ia-auto">
+            <div class="card-top">
+              <div class="card-badges">
+                <span class="badge badge-muted">Backend · Automatización</span>
+              </div>
+              <span class="card-index" aria-hidden="true">02</span>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">CazaVuelos</h3>
+              <p class="card-description">
+                Rastreador automatizado de vuelos capaz de detectar descuentos superiores al 50&nbsp;% con salida desde Vitoria-Gasteiz (VIT) y Bilbao (BIO), con monitorización programada e histórico persistente de tarifas.
+              </p>
+
+              <ul class="tech-list" aria-label="Tecnologías utilizadas">
+                <li>Python</li>
+                <li>FastAPI</li>
+                <li>SQLite</li>
+                <li>APScheduler</li>
+              </ul>
+            </div>
+
+            <div class="card-actions">
+              <a href="https://github.com/Ubairoa" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">
+                <span>Ver repositorio</span>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 17 17 7M9 7h8v8"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card" data-categories="web-apps ia-auto eng-games">
+            <div class="card-top">
+              <div class="card-badges">
+                <span class="badge badge-muted">UPV/EHU · IA &amp; Web</span>
+              </div>
+              <span class="card-index" aria-hidden="true">03</span>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Proyecto K-MINUS (UPV/EHU)</h3>
+              <p class="card-description">
+                Iniciativa universitaria de silla de ruedas todoterreno accesible. Desarrollo web del proyecto, diseño de equipación del equipo y automatización documental impulsada por inteligencia artificial.
+              </p>
+
+              <ul class="tech-list" aria-label="Tecnologías utilizadas">
+                <li>n8n</li>
+                <li>Gemini API</li>
+                <li>Python</li>
+                <li>Desarrollo Web</li>
+              </ul>
+            </div>
+
+            <div class="card-actions">
+              <a href="https://github.com/Ubairoa" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">
+                <span>Ver repositorio</span>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 17 17 7M9 7h8v8"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card" data-categories="web-apps eng-games">
+            <div class="card-top">
+              <div class="card-badges">
+                <span class="badge badge-muted">Formula Student · UPV/EHU</span>
+              </div>
+              <span class="card-index" aria-hidden="true">04</span>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Araba Motorsport (Formula Student UPV/EHU)</h3>
+              <p class="card-description">
+                Gestión de comunicación técnica y presencia digital del equipo universitario de competición Formula Student, alineando la identidad del proyecto con patrocinadores y comunidad de ingeniería.
+              </p>
+
+              <ul class="tech-list" aria-label="Tecnologías utilizadas">
+                <li>Formula Student</li>
+                <li>Presencia Digital</li>
+                <li>Comunicación Técnica</li>
+              </ul>
+            </div>
+
+            <div class="card-actions">
+              <a href="https://github.com/Ubairoa" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">
+                <span>Abrir proyecto</span>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 17 17 7M9 7h8v8"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card" data-categories="eng-games">
+            <div class="card-top">
+              <div class="card-badges">
+                <span class="badge badge-muted">Game Dev · Algoritmia</span>
+              </div>
+              <span class="card-index" aria-hidden="true">05</span>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Videojuegos 2D &amp; Simulaciones</h3>
+              <p class="card-description">
+                Colección de proyectos en Godot 4 y Java/Greenfoot: adaptación digital de Exploding Kittens con bots heurísticos, videojuegos de plataformas 2D e implementación interactiva de algoritmos matemáticos.
+              </p>
+
+              <ul class="tech-list" aria-label="Tecnologías utilizadas">
+                <li>Godot 4</li>
+                <li>GDScript</li>
+                <li>Java</li>
+                <li>Greenfoot</li>
+                <li>Bots Heurísticos</li>
+              </ul>
+            </div>
+
+            <div class="card-actions">
+              <a href="https://github.com/Ubairoa" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">
+                <span>Ver repositorio</span>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 17 17 7M9 7h8v8"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="stack">
+      <div class="container">
+        <div class="section-header section-header--compact">
+          <div>
+            <span class="section-kicker">Herramientas</span>
+            <h2 class="section-title">Stack Tecnológico</h2>
+            <p class="section-description">
+              Lenguajes, frameworks y herramientas que utilizo habitualmente en desarrollo de software, datos y automatización.
+            </p>
+          </div>
+        </div>
+
+        <div class="stack-grid">
+          <div class="stack-card">
+            <h3 class="stack-category">Lenguajes</h3>
+            <ul class="stack-badges">
+              <li>Python</li>
+              <li>C#</li>
+              <li>Java</li>
+              <li>JavaScript</li>
+              <li>GDScript</li>
+            </ul>
+          </div>
+
+          <div class="stack-card">
+            <h3 class="stack-category">Web &amp; Datos</h3>
+            <ul class="stack-badges">
+              <li>HTML/CSS</li>
+              <li>FastAPI</li>
+              <li>SQLite</li>
+              <li>Git</li>
+            </ul>
+          </div>
+
+          <div class="stack-card">
+            <h3 class="stack-category">IA &amp; Herramientas</h3>
+            <ul class="stack-badges">
+              <li>MediaPipe</li>
+              <li>OpenCV</li>
+              <li>n8n</li>
+              <li>Linux/Ubuntu</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contacto">
+    <div class="container footer-inner">
+      <div class="footer-info">
+        <p class="footer-name">Unai Roa Ariznabarreta</p>
+        <p class="footer-location">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 21s-6-5.33-6-10a6 6 0 1 1 12 0c0 4.67-6 10-6 10Z"/>
+            <circle cx="12" cy="11" r="2.2" fill="none" stroke="currentColor" stroke-width="1.8"/>
+          </svg>
+          <span>Vitoria-Gasteiz, Álava</span>
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <a href="https://github.com/Ubairoa" class="footer-link" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2Z"/>
+          </svg>
+          <span>GitHub</span>
+        </a>
+
+        <!-- PLACEHOLDER: Sustituye https://www.linkedin.com/in/TU-PERFIL-LINKEDIN por tu perfil real de LinkedIn -->
+        <a href="https://www.linkedin.com/in/TU-PERFIL-LINKEDIN" class="footer-link" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77Z"/>
+          </svg>
+          <span>LinkedIn</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; <span id="current-year">2026</span> Unai Roa Ariznabarreta. Desarrollado con HTML5, CSS3 y JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
